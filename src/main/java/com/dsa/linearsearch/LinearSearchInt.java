@@ -1,6 +1,6 @@
 package com.dsa.linearsearch;
 
-public class LinearSearch {
+public class LinearSearchInt {
 
     static int doLinearSearch(int[] arr, int target) {
         if (arr.length == 0) return -1;
@@ -9,8 +9,9 @@ public class LinearSearch {
         }
         return -1;
     }
+
     public static void main(String[] args) {
-        int[] arr = {56,895,54,2,5,6,8};
-        System.out.println(doLinearSearch(arr,5));
+        int[] arr = {56, 895, 54, 2, 5, 6, 8};
+        System.out.println(doLinearSearch(arr, 5));
     }
 }
